@@ -4,7 +4,7 @@
 
 Smart Converter is a Chrome extension that detects highlighted currencies and measurement units directly on webpages, then instantly converts them into your preferred currencies or unit system.
 
-Built for convenient everyday browsing.
+Built for streamline everyday browsing.
 
 Supports:
 - 50+ currencies
