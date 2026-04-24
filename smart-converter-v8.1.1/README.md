@@ -34,6 +34,7 @@ Supports:
   - `USD400`
   - `1 200 EUR`
 
+
 ### 📏 Unit Conversion
 Instantly converts between Metric and Imperial systems.
 Examples:
@@ -43,14 +44,10 @@ Examples:
 - `2 gallons` → `7.57 L`
 
 Supports:
-#### Length
-ft, feet, inches, miles, km, cm, m
-#### Weight
-lbs, pounds, oz, kg, g
-#### Volume
-gallon, qt, liters, ml
-#### Temperature
-°F, °C, Fahrenheit, Celsius
+- Length: ft, feet, inches, miles, km, cm, m
+- Weight: lbs, pounds, oz, kg, g
+- Volume: gallon, qt, liters, ml
+- Temperature: °F, °C, Fahrenheit, Celsius
 
 
 ### 🎨 Clean Modern UI
@@ -60,15 +57,14 @@ gallon, qt, liters, ml
 - Lightweight and fast
 
 
-### ⚙️ Preferences
-Customize your experience:
+### ⚙️ Customize your experience:
 - Preferred currencies
 - Metric / Imperial system
 - Theme selection (dark/light)
 
 ---
 
-## 🚀 Installation (Developer Mode)
+## 🚀 Installation
 
 1. Download this repository
 2. Open Chrome
