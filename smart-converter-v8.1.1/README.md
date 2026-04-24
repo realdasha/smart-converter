@@ -16,7 +16,6 @@ Supports:
 ---
 
 ## ✨ Features
----
 
 ### 💱 Currency Conversion
 Supports live exchange-rate conversion for major global currencies.
