@@ -12,9 +12,9 @@ Supports:
 - Dark / Light theme popup
 - Fast inline tooltip UX
  
-![Light Theme](assets/light_theme.png)
-![Dark Theme](assets/dark_theme.png)
-<img src="assets/ext.png" width="420">
+![Light Theme](smart-converter-v8.1.1/assets/light_theme.png)
+![Dark Theme](smart-converter-v8.1.1/assets/dark_theme.png)
+<img src="smart-converter-v8.1.1/assets/ext.png" width="420">
 ---
 
 ## ✨ Features
