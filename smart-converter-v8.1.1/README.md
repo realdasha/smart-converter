@@ -14,6 +14,7 @@ Supports:
  
 ![Light Theme](assets/light_theme.png)
 ![Dark Theme](assets/dark_theme.png)
+![Ext](assets/ext.png)
 ---
 
 ## ✨ Features
