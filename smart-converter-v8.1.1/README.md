@@ -1,6 +1,6 @@
 # Smart Converter
 
-> Highlight any value on a webpage and get instant currency or unit conversions.
+> # Highlight any value on a webpage and get instant currency or unit conversions.
 
 Smart Converter is a Chrome extension that detects highlighted currencies and measurement units directly on webpages, then instantly converts them into your preferred currencies or unit system.
 
@@ -16,6 +16,7 @@ Supports:
 ---
 
 ## ✨ Features
+---
 
 ### 💱 Currency Conversion
 Supports live exchange-rate conversion for major global currencies.
@@ -33,7 +34,7 @@ Supports:
   - `400 USD`
   - `USD400`
   - `1 200 EUR`
-
+---
 
 ### 📏 Unit Conversion
 Instantly converts between Metric and Imperial systems.
@@ -48,20 +49,19 @@ Supports:
 - Weight: lbs, pounds, oz, kg, g
 - Volume: gallon, qt, liters, ml
 - Temperature: °F, °C, Fahrenheit, Celsius
-
+---
 
 ### 🎨 Clean Modern UI
 - Instant tooltip popup
 - Light / Dark theme
 - Minimal design
 - Lightweight and fast
-
+---
 
 ### ⚙️ Customize your experience:
 - Preferred currencies
 - Metric / Imperial system
 - Theme selection (dark/light)
-
 ---
 
 ## 🚀 Installation
