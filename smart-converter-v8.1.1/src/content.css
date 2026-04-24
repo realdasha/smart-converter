@@ -1,0 +1,9 @@
+#svc-tooltip{position:absolute;z-index:2147483647;max-width:360px;padding:10px 12px;border-radius:12px;font:13px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;box-shadow:0 12px 30px rgba(0,0,0,.28);line-height:1.35;pointer-events:none}
+#svc-tooltip.svc-dark{background:#111827;color:#fff}
+#svc-tooltip.svc-light{background:#fff;color:#111827;border:1px solid rgba(15,23,42,.12);box-shadow:0 12px 30px rgba(15,23,42,.16)}
+#svc-tooltip:after{content:"";position:absolute;left:18px;bottom:-6px;border:6px solid transparent;border-bottom:0}
+#svc-tooltip.svc-dark:after{border-top-color:#111827}
+#svc-tooltip.svc-light:after{border-top-color:#fff}
+#svc-tooltip .svc-original{opacity:.7;font-size:11px;margin-bottom:3px}
+#svc-tooltip .svc-result{font-weight:650;font-size:14px}
+#svc-tooltip .svc-meta{opacity:.55;font-size:10px;margin-top:5px}

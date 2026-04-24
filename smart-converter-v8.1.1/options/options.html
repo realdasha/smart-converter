@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Smart Value Converter Settings</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif;max-width:900px;margin:36px auto;padding:0 20px;color:#111827;background:#fff}h1{font-size:30px;margin-bottom:6px}h2{margin-top:28px}.muted{color:#6b7280}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(105px,1fr));gap:10px}.card,label.option{display:flex;gap:8px;align-items:center;padding:10px 12px;border:1px solid #e5e7eb;border-radius:12px;background:#fff}.section{border:1px solid #e5e7eb;border-radius:16px;padding:16px;margin-top:12px}.row{display:grid;grid-template-columns:220px 1fr;gap:12px;align-items:center;margin:12px 0}select{padding:10px 12px;border:1px solid #d1d5db;border-radius:10px;background:white;font-size:14px}button{margin-top:24px;border:0;background:#111827;color:white;padding:13px 20px;border-radius:14px;font-weight:700;cursor:pointer}#status{font-weight:650;color:#047857}.custom{display:none}.custom.show{display:block}
+  </style>
+</head>
+<body>
+  <h1>Smart Value Converter</h1>
+  <p class="muted">Choose target currencies and measurement preferences. Highlight a value on any normal webpage to convert it.</p>
+  <h2>Target currencies</h2>
+  <div class="grid" id="currencies"></div>
+  <h2>Unit preferences</h2>
+  <div class="section">
+    <div class="row"><strong>Measurement system</strong><select id="preferredSystem"><option value="metric">Metric: ft/lb/°F → cm/kg/°C</option><option value="imperial">Imperial: m/kg/°C → ft/lb/°F</option><option value="custom">Custom target units</option></select></div>
+    <div id="customUnits" class="custom">
+      <div class="row"><span>Length / distance</span><select id="unitLength"><option value="auto">Auto</option><option value="cm">cm</option><option value="m">m</option><option value="km">km</option><option value="in">in</option><option value="ft">ft</option><option value="mi">mi</option></select></div>
+      <div class="row"><span>Weight / mass</span><select id="unitMass"><option value="kg">kg</option><option value="g">g</option><option value="lb">lb</option><option value="oz">oz</option></select></div>
+      <div class="row"><span>Temperature</span><select id="unitTemp"><option value="C">°C</option><option value="F">°F</option></select></div>
+      <div class="row"><span>Volume</span><select id="unitVolume"><option value="L">liters</option><option value="ml">ml</option><option value="gal">gallons</option><option value="floz">fl oz</option><option value="qt">quarts</option></select></div>
+      <div class="row"><span>Area</span><select id="unitArea"><option value="m2">m²</option><option value="sqft">sq ft</option><option value="acre">acres</option></select></div>
+    </div>
+  </div>
+  <h2>Categories</h2>
+  <label class="option"><input type="checkbox" id="currency" checked> Currency</label>
+  <label class="option"><input type="checkbox" id="units" checked> Units</label>
+  <button id="save">Save settings</button>
+  <p id="status"></p>
+  <script src="options.js"></script>
+</body>
+</html>

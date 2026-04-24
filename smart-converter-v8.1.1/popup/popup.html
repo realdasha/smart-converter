@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <div class="head">
+      <img class="brand-logo" src="../icons/icon48.png" alt="Smart Converter logo">
+      <div>
+        <h1>Smart Converter</h1>
+        <p>Highlight a value on any webpage and get an instant conversion popup.</p>
+      </div>
+    </div>
+    <section>
+      <label class="label">Tooltip theme</label>
+      <div class="seg" id="themeSeg"><button data-theme="dark">Dark</button><button data-theme="light">Light</button></div>
+    </section>
+    <section>
+      <label class="label">Target currencies</label>
+      <button id="currencyButton" class="dropdown">Choose currencies <span id="currencySummary"></span></button>
+      <div id="currencyMenu" class="menu hidden"></div>
+    </section>
+    <section>
+      <label class="label">Measurement system</label>
+      <div class="seg" id="systemSeg"><button data-system="metric">Metric</button><button data-system="imperial">Imperial</button></div>
+      <p class="hint">Length, volume, and weight are shown in the closest useful unit of the selected system.</p>
+    </section>
+    <section>
+      <label class="row"><input id="currencyEnabled" type="checkbox"> Currency conversion</label>
+      <label class="row"><input id="unitsEnabled" type="checkbox"> Unit conversion</label>
+    </section>
+    <div id="status">Saved automatically</div>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
