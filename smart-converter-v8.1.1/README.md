@@ -12,7 +12,7 @@ Supports:
 - Dark / Light theme popup
 - Fast inline tooltip UX
  
-
+![Light Theme](assets/light_theme.png)
 ---
 
 ## ✨ Features
